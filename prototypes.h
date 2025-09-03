@@ -20,7 +20,7 @@ double Simpson(double (*fz)(double),double,double,int&,int&);
 double GaussLegendre(double (*fz)(double),double,double,int&,int&);
 
 //funzioni per le ODE
-void PoorEulerODE(double /*variabile*/,double */*array soluzione*/,void(*derivefz)(double,double *,double *),double/*delta*/,int/*#step*/);
+void PoorEulerODE(double /*variabile*/,double *  /*array soluzione*/,void(*derivefz)(double,double *,double *),double/*delta*/,int/*#step*/);
 void RungeKutta4(double,double *,void (*dYdt)(double,double *,double *),double,int);//Runge-Kutta 4 ordine
 //se c'è tempo prova a implementare leapfrog e verlet
 
